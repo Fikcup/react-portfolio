@@ -1,8 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
 
 const Footer = () => {
-    render (
+    return (
         <footer>
             <ul>
                 <li><a href="https://github.com/Fikcup">GitHub</a></li>

@@ -3,7 +3,7 @@ import React from 'react';
 // TODO: Add routing using { currentPage }
 
 const Nav = () => {
-    render (
+    return (
         <nav>
             <ul>
                 <li>About Me</li>
