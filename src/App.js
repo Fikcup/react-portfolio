@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import About from './components/About/index'
+import Nav from './components/Nav'
+import Page from './components/Page'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,7 +22,11 @@ function App() {
         </a>
       </header>
 
-      <About />
+      <Nav />
+
+      <Page currentPage={ currentPage } />
+
+      <Footer />
     </div>
   );
 }
