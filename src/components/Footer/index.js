@@ -1,14 +1,13 @@
 import React from 'react';
-
-// TODO: Add links
+import { render } from 'react-dom';
 
 const Footer = () => {
-    return (
+    render (
         <footer>
             <ul>
-                <li><a>GitHub</a></li>
-                <li><a>LinkedIn</a></li>
-                <li><a>Email</a></li>
+                <li><a href="https://github.com/Fikcup">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/rhys-wright/">LinkedIn</a></li>
+                <li><a href="mailto:rhys.n.wright@gmail.com">Email</a></li>
             </ul>
         </footer>
     );
