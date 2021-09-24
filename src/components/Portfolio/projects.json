@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Password Generator",
+        "src": "./assets/project-imgs/passwordGenerator.PNG",
+        "deployment": "https://fikcup.github.io/password-generator-js/",
+        "github": "https://github.com/Fikcup/password-generator-js",
+        "desc": "Password Generator with JavaScript logic and web display"
+    },
+    {
+        "id": "2",
+        "name": "Grocery List",
+        "src": "./assets/project-imgs/groceryList.PNG",
+        "deployment": "https://fikcup.github.io/grocery-list/",
+        "github": "https://github.com/Fikcup/grocery-list",
+        "desc": "Grocery list program displayed via HTML and CSS. All logic done in vanilla JavaScript."
+    },
+    {
+        "id": "3",
+        "name": "Word Guesser",
+        "src": "./assets/project-imgs/wordGuesser.PNG",
+        "deployment": "https://fikcup.github.io/word-guesser/",
+        "github": "https://github.com/Fikcup/word-guesser",
+        "desc": "Word guessing game similar to hangman. Applying more advanced JavaScript logic."
+    }
+]
