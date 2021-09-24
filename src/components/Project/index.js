@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 
 // TODO: Create JSON file that implements these props
 

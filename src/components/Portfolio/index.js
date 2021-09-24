@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import Project from '../Project';
 import projects from './projects.json';
 
