@@ -1,15 +1,22 @@
 import React from 'react';
-
-// TODO: Add routing using { currentPage }
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact me</li>
-                <li>Resume</li>
+                <Link to='/'>
+                    <li>About Me</li>
+                </Link>
+                <Link to='/portfolio'>
+                    <li>Portfolio</li>
+                </Link>
+                <Link to='/resume'>
+                    <li>Resume</li>
+                </Link>
+                <Link to='/contact'>
+                    <li>Contact me</li>
+                </Link>
             </ul>
         </nav>
     );
