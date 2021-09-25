@@ -3,7 +3,7 @@ import Project from '../Project';
 import projects from './projects.json';
 
 
-// TODO: Create JSON file with props and map to create a list of projects
+// Maps JSON file and inputs content as props to output a portfolio
 
 const Portfolio = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-// TODO: Create JSON file that implements these props
+// Reusable project component that accepts props
 
 const Project = (props) => {
     return (
