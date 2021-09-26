@@ -1,4 +1,20 @@
+@import './variables';
+@import './mixins';
+
 .App {
-  justify-content: center;
-  text-align: center;
+  @include centerContent();
+  @include setMarginPadding();
+
+  font-family: 'Gafata', sans-serif;
+  background-color: $themeSnow;
+}
+
+a,
+LINK {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+li {
+  list-style: none;
 }
