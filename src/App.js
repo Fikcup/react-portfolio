@@ -13,9 +13,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header>
-          <Nav />
-        </Header>
+        <Nav />
+        <Header />
         <Switch>
           <Route exact path="/" component={About}/>
           <Route path="/portfolio" component={Portfolio}/>
