@@ -1,0 +1,32 @@
+@import '../../variables';
+@import '../../mixins';
+
+footer {
+    position: relative;
+    background-color: $themeViolet;
+    width: 100%;
+}
+
+footer ul {
+    @include setMarginPadding();
+    overflow: hidden;
+    text-align: center;
+}
+
+footer ul li {
+    float: left;
+    display: block;
+    padding: 20px 35px;
+    color: $themeSnow;
+    font-size: 1.5rem;
+
+    &:hover {
+        background-color: $themeByzantium;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    footer ul li {
+        float: none;
+    }
+}
