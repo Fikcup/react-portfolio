@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 
 // TODO: Import form field validation from utils/helpers.js
 

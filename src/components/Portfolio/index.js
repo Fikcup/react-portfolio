@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 import projects from './projects.json';
+import './style.scss';
 
 
 // Maps JSON file and inputs content as props to output a portfolio

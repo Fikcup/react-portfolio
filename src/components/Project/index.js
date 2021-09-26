@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 
 // Reusable project component that accepts props
 
