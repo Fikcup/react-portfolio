@@ -1,0 +1,52 @@
+@import "../../variables";
+@import '../../mixins';
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $themeViolet;
+    z-index: 2;
+}
+
+nav ul {
+    @include setMarginPadding();
+    overflow: hidden;
+    float: right;
+}
+
+nav li {
+    float: left;
+    padding: 20px 35px;
+    display: block;
+    color: $themeSnow;
+    font-size: 1.5rem;
+
+    &:hover {
+        background-color: $themeByzantium;
+    }
+}
+
+// @media screen and (max-width: 992px) {
+//     nav {
+//         position: flex;
+//         background-color: $themeViolet;
+//         flex-direction: column;
+//     }
+
+//     nav ul {
+//         @include setMarginPadding();
+//         text-align: center;
+//         float: right;
+//     }
+
+//     nav li {
+//         display: block;
+//         padding: 20px 16px;
+//         color: $themeSnow;
+
+//         &:hover {
+//             background-color: $themeByzantium;
+//         }
+//     }
+// }
