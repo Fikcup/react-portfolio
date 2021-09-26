@@ -1,3 +1,21 @@
-p {
-    color: purple;
+@import '../../variables';
+@import '../../mixins';
+
+#about {
+    @include setMarginPadding();
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+#profileImg {
+    float: left;
+    max-height: 500px;
+    border-radius: 50%;
+    margin: 0px 50px 0px 50px;
+}
+
+#about p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-right: 50px;
 }
