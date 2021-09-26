@@ -27,26 +27,19 @@ nav li {
     }
 }
 
-// @media screen and (max-width: 992px) {
-//     nav {
-//         position: flex;
-//         background-color: $themeViolet;
-//         flex-direction: column;
-//     }
+@media screen and (max-width: 992px) {
+    nav {
+        position: relative;
+    }
 
-//     nav ul {
-//         @include setMarginPadding();
-//         text-align: center;
-//         float: right;
-//     }
+    nav ul {
+        float: none;
+    }
 
-//     nav li {
-//         display: block;
-//         padding: 20px 16px;
-//         color: $themeSnow;
-
-//         &:hover {
-//             background-color: $themeByzantium;
-//         }
-//     }
-// }
+    nav li {
+        float: none;
+        justify-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
