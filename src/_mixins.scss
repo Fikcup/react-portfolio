@@ -1,0 +1,11 @@
+@mixin centerContent {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin setMarginPadding {
+    margin: 0;
+    padding: 0;
+}
