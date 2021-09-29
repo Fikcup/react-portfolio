@@ -8,7 +8,7 @@ import './style.scss';
 
 const Portfolio = () => {
     return (
-        <section>
+        <section id="portfolio" className="projectContainer">
             {projects.map((projects) => (
                 <Project 
                     name = {projects.name}

@@ -1,0 +1,20 @@
+@import '../../variables';
+@import '../../mixins';
+
+.project {
+    flex: 1 0 30%;
+    max-width: 30%;
+}
+
+.project a {
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.project img {
+    width: 300px;
+    height: auto;
+}

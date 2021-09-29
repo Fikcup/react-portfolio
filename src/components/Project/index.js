@@ -5,16 +5,16 @@ import './style.scss';
 
 const Project = (props) => {
     return (
-        <div>
+        <div className="project">
             <a target="_blank" rel="noreferrer" href={props.deployment}>
                 <img src={props.src} alt={props.name} />
-                <h2>{props.name}</h2>
+                <h3>{props.name}</h3>
             </a>
-            <h3>
+            <h4>
                 <a target="_blank" rel="noreferrer" href={props.github}>
                     Code here
                 </a>
-            </h3>
+            </h4>
             <p>{props.desc}</p>
         </div>
     );
