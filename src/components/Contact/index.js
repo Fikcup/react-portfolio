@@ -1,38 +1,30 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs, { send } from 'emailjs-com';
 import './style.scss';
 
-// TODO: Import form field validation from utils/helpers.js
+export const Contact = () => {
+    const form = useRef();
+    
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-const Contact = () => {
+        emailjs.sendForm('service_3nsmrbc', 'template_o9n61gf', form.current, 'user_DE9q4IuPkQwHnL837Mrv0')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
-        <form action="mailto:rhys.n.wright@gmail.com?subject=Work Opportunity" 
-        method="POST" 
-        encType="multipart/form-data"
-        name="EmailForm">
-            <label htmlFor="name">Name:</label><br />
-            <input
-                type="text"
-                name="name"
-                defaultValue="name"
-            /><br />
-            <label htmlFor="email">Email Address:</label><br />
-            <input 
-                type="email"
-                name="email"
-                defaultValue="email"
-            /><br />
-            <label htmlFor="message">Message:</label><br />
-            <textarea 
-                name="message"
-                rows="3"
-                defaultValue="message"
-            /><br />
-            <input
-                type="submit"
-                name="submit"
-                id="submit"
-                value="Submit"
-            />
+        <form ref={form} onSubmit={sendEmail} name="contactForm">
+            <label>Name</label><br />
+            <input type="text" name="user_name" /><br />
+            <label>Email</label><br />
+            <input type="email" name="user_email" /><br />
+            <label>Message</label><br />
+            <textarea name="message" /><br />
+            <input type="submit" value="Send" />
         </form>
     );
 }
