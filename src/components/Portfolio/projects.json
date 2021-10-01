@@ -1,6 +1,14 @@
 [
     {
         "id": "1",
+        "name": "Client Portfolio",
+        "src": "./assets/project-imgs/clairePortfolio.PNG",
+        "deployment": "https://clairecashmore17.github.io/Portfolio/",
+        "github": "https://github.com/clairecashmore17/Portfolio",
+        "desc": "JavaScript, React, SASS, HTML, NPM"
+    },
+    {
+        "id": "2",
         "name": "Password Generator",
         "src": "./assets/project-imgs/passwordGenerator.PNG",
         "deployment": "https://fikcup.github.io/password-generator-js/",
@@ -8,7 +16,7 @@
         "desc": "HTML, CSS, JavaScript"
     },
     {
-        "id": "2",
+        "id": "3",
         "name": "Grocery List",
         "src": "./assets/project-imgs/groceryList.PNG",
         "deployment": "https://fikcup.github.io/grocery-list/",
@@ -16,7 +24,7 @@
         "desc": "HTML, CSS, JavaScript"
     },
     {
-        "id": "3",
+        "id": "4",
         "name": "Word Guesser",
         "src": "./assets/project-imgs/wordGuesser.PNG",
         "deployment": "https://fikcup.github.io/word-guesser/",
