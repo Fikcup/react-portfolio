@@ -13,3 +13,9 @@
 .projectContainer {
     @include projectFlexProperties();
 }
+
+@media screen and (max-width: 992px) {
+    .projectContainer {
+        display: block;
+    }
+}

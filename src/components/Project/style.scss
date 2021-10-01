@@ -4,6 +4,7 @@
 .project {
     flex: 1 0 30%;
     max-width: 30%;
+    padding: 15px 15px 15px 15px;
 }
 
 .project a {
@@ -17,4 +18,17 @@
 .project img {
     width: 300px;
     height: auto;
+}
+
+.project p {
+    font-style: italic;
+}
+
+@media screen and (max-width: 992px) {
+    .project {
+        margin-left: auto;
+        margin-right: auto;
+        flex: 1 0 100%;
+        max-width: 100%;   
+    }
 }

@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs, { send } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import './style.scss';
 
 export const Contact = () => {

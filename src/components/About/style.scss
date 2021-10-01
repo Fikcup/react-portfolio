@@ -19,3 +19,13 @@
     line-height: 2.5rem;
     margin-right: 50px;
 }
+
+@media screen and (max-width: 992px) {
+    #profileImg {
+        margin: 0% 10% 10% 10%;
+    }
+
+    #about p {
+        margin: 0% 10% 0% 10%;
+    }
+}
