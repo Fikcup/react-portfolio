@@ -3,7 +3,9 @@ import './style.scss';
 
 const Resume = () => {
     return (
-        <section>
+        <section id="resume">
+            <h2 className="sectionTitle">Resume</h2>
+
             <a href="../public/assets/Resume.pdf" download>Resume</a>
 
             <h2>Front-End Languages</h2>

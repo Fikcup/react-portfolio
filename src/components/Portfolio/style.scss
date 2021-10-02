@@ -6,16 +6,6 @@
     @include setSectionBackground();
 }
 
-#portfolio h2 {
-    @include setSectionTitle();
-}
-
 .projectContainer {
     @include projectFlexProperties();
-}
-
-@media screen and (max-width: 992px) {
-    .projectContainer {
-        display: block;
-    }
 }

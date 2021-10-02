@@ -5,7 +5,7 @@ import './style.scss';
 
 const Project = (props) => {
     return (
-        <div className="project">
+        <article className="project">
             <a target="_blank" rel="noreferrer" href={props.deployment}>
                 <img src={props.src} alt={props.name} />
                 <h3>{props.name}</h3>
@@ -16,7 +16,7 @@ const Project = (props) => {
                 </a>
             </h4>
             <p>{props.desc}</p>
-        </div>
+        </article>
     );
 }
 

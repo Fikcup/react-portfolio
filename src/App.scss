@@ -18,3 +18,7 @@ LINK {
 li {
   list-style: none;
 }
+
+.sectionTitle {
+  @include setSectionTitle();
+}
