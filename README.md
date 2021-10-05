@@ -39,7 +39,14 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/Fikcup/react-portfolio.git
    ```
-2. Run the HTML file
+2. Install Dependencies
+    ```sh
+    npm i
+    ```
+3. Run the application
+    ```sh
+    npm start
+    ```
 
 <!-- LICENSE -->
 ## License
