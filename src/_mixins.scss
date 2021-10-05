@@ -34,6 +34,12 @@
     padding-bottom: $sectionTitleSpacing;
 }
 
+@mixin setResumeTitle {
+    font-size: $contactTitleSize;
+    padding-top: $contactTitleSpacing;
+    padding-bottom: $contactTitleSpacing;
+}
+
 @mixin projectFlexProperties {
     display: flex;
     justify-content: space-evenly;
