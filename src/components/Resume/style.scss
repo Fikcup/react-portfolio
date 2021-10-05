@@ -12,6 +12,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
     @include sectionTopSpacing();
+    @include sectionBottomSpacing();
     background-color: $themeThistle;
 }
 

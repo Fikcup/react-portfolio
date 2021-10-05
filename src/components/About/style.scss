@@ -5,6 +5,7 @@
     @include setMarginPadding();
     overflow: auto;
     @include sectionTopSpacing();
+    @include sectionBottomSpacing();
 }
 
 #profileImg {
