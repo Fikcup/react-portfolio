@@ -10,6 +10,10 @@
     padding-bottom: 50px;
 }
 
+@mixin sectionBottomSpacing {
+    padding-bottom: 50px;
+}
+
 @mixin setSectionTitle {
     font-size: $sectionTitleSize;
     padding-bottom: $sectionTitleSpacing;

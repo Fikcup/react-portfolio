@@ -4,6 +4,7 @@
 #portfolio {
     @include sectionTopSpacing();
     @include setSectionBackground();
+    @include sectionBottomSpacing();
 }
 
 .projectContainer {
