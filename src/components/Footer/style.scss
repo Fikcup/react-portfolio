@@ -2,31 +2,47 @@
 @import '../../mixins';
 
 footer {
-    position: relative;
-    background-color: $themeViolet;
-    width: 100%;
-}
-
-footer ul {
-    @include setMarginPadding();
-    overflow: hidden;
-    text-align: center;
-}
-
-footer ul li {
-    float: left;
     display: block;
-    padding: 20px 35px;
-    color: $themeSnow;
-    font-size: 1.5rem;
+    bottom: 0;
+    width: 100%;
+    background-color: $themeViolet;
+    overflow: hidden;
+}
 
+footer p {
+    color: $themeByzantium;
+    font-size: 1.5rem;
+}
+
+.footerLink {
+    color: $themeThistle;
+    
     &:hover {
-        background-color: $themeByzantium;
+        text-decoration: underline;
     }
 }
 
-@media screen and (max-width: 992px) {
-    footer ul li {
+#codeLink {
+    float: left;
+    margin-left: 50px;
+}
+
+#clientContact {
+    float: right;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #codeLink,
+    #clientContact {
         float: none;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 }
