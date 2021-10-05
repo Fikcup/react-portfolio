@@ -1,6 +1,10 @@
 @import '../../mixins';
 @import '../../variables';
 
+#resume {
+    @include sectionTopSpacing();
+}
+
 #languagesContainer {
     display: flex;
     flex-direction: row;

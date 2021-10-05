@@ -3,6 +3,7 @@
 
 #contact {
     @include setMarginPadding();
+    @include sectionTopSpacing();
 }
 
 .contactContainer {

@@ -4,7 +4,7 @@
 #about {
     @include setMarginPadding();
     overflow: auto;
-    @include sectionBottomSpacing();
+    @include sectionTopSpacing();
 }
 
 #profileImg {
