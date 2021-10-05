@@ -1,2 +1,47 @@
 @import '../../mixins';
 @import '../../variables';
+
+#languagesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    @include sectionTopSpacing();
+    background-color: $themeThistle;
+}
+
+.languageList {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 3;
+    flex-basis: auto;
+}
+
+.languageList ul {
+    padding: 0;
+    line-height: 1.75rem;
+}
+
+.languageSection {
+    font-size: 1.5rem;
+}
+
+.languageList ul li {
+    font-size: 1.25rem;
+    list-style-type: circle;
+}
+
+#downloadIcon {
+    padding-right: 20px;
+}
+
+.downloadResume {
+    font-size: 1.75rem;
+    margin-bottom: 50px;
+    color: $themeViolet;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

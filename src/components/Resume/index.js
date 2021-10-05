@@ -1,16 +1,18 @@
 import React from 'react';
 import './style.scss';
-import { MDFileDownload } from './react-icons/md';
+import { MdFileDownload } from 'react-icons/md';
 
 const Resume = () => {
     return (
         <section id="resume">
             <h2 className="sectionTitle">Resume</h2>
 
-            <a href="../public/assets/Resume.pdf" download target="_blank" rel="noreferrer" id="download">
-                <span id="downloadIcon"><MdFileDownload size={25}/></span>
-                Download Resume as a PDF
-            </a>
+            <article className="downloadResume">
+                <a href="../assets/Resume.pdf" download target="_blank" rel="noreferrer" id="download">
+                    <span id="downloadIcon"><MdFileDownload size={40}/></span>
+                    Download Resume as a PDF
+                </a>
+            </article>
 
             <article id="languagesContainer">
                 <div className="languageList">
@@ -19,6 +21,7 @@ const Resume = () => {
                         <li>JavaScript</li>
                         <li>C#</li>
                         <li>Java</li>
+                        <li>Python</li>
                     </ul>
                 </div>
 
