@@ -3,5 +3,46 @@
 
 #contact {
     @include setMarginPadding();
+}
+
+.contactContainer {
     @include sectionBottomSpacing();
+}
+
+.emailForm {
+    line-height: 2.5rem;
+}
+
+.emailForm label {
+    font-size: 1.25rem;
+}
+
+.emailForm input,
+.emailForm textarea {
+    height: 1.5rem;
+    width: 50%;
+    font-size: 1.25rem;
+}
+
+.emailForm textarea {
+    height: 8rem;
+}
+
+.emailForm #submit {
+    text-align: center;
+    height: 3rem;
+}
+
+#contactInfo {
+    background-color: $themeThistle;
+}
+
+.contactList {
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contactTitle {
+    @include setResumeTitle();
 }
