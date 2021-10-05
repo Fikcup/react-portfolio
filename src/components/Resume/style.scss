@@ -45,3 +45,24 @@
         text-decoration: underline;
     }
 }
+
+@media screen and (max-width: 992px) {
+    #languagesContainer {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #downloadIcon {
+        display: block;
+        padding-bottom: 25px;
+        padding-right: 0;
+    }
+
+    .downloadResume {
+        font-size: 1.25rem;
+    }
+}
