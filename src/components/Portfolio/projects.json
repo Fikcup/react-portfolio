@@ -1,6 +1,14 @@
 [
     {
         "id": "1",
+        "name": "Social Network API",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/clairePortfolio.PNG",
+        "deployment": "https://youtu.be/613EqxV_-28",
+        "github": "https://github.com/Fikcup/socialnetworkAPI",
+        "desc": "JavaScript, Express, Node, Mongoose"
+    },
+    {
+        "id": "2",
         "name": "Client Portfolio",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/clairePortfolio.PNG",
         "deployment": "https://clairecashmore17.github.io/Portfolio/",
@@ -8,7 +16,7 @@
         "desc": "JavaScript, React, SASS, HTML, NPM"
     },
     {
-        "id": "2",
+        "id": "3",
         "name": "Password Generator",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/passwordGenerator.PNG",
         "deployment": "https://fikcup.github.io/password-generator-js/",
@@ -16,7 +24,7 @@
         "desc": "HTML, CSS, JavaScript"
     },
     {
-        "id": "3",
+        "id": "4",
         "name": "Grocery List",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/groceryList.PNG",
         "deployment": "https://fikcup.github.io/grocery-list/",
@@ -24,7 +32,7 @@
         "desc": "HTML, CSS, JavaScript"
     },
     {
-        "id": "4",
+        "id": "5",
         "name": "Word Guesser",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/wordGuesser.PNG",
         "deployment": "https://fikcup.github.io/word-guesser/",
