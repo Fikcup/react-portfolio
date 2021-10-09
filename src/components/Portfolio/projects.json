@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Social Network API",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/clairePortfolio.PNG",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/socialNetworkAPI.PNG",
         "deployment": "https://youtu.be/613EqxV_-28",
         "github": "https://github.com/Fikcup/socialnetworkAPI",
         "desc": "JavaScript, Express, Node, Mongoose"
