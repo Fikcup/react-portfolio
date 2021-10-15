@@ -19,6 +19,7 @@ const Portfolio = () => {
                         deployment = {projects.deployment}
                         github = {projects.github}
                         desc = {projects.desc}
+                        tech = {projects.tech}
                         key = {projects.name}
                         id = {projects.id}
                     />

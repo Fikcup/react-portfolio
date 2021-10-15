@@ -20,8 +20,14 @@
     height: auto;
 }
 
-.project p {
+.projectDesc {
+    font-style: normal;
+}
+
+.projectTech {
     font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 992px) {

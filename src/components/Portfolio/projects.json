@@ -1,42 +1,56 @@
 [
     {
         "id": "1",
+        "name": "Reading List API",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/readinglistAPI.PNG",
+        "deployment": "",
+        "github": "https://github.com/Fikcup/readinglistAPI",
+        "desc": "A REST API that utilizes a MySQL database to provide backend functionality for a reading list website.",
+        "tech": "JavaScript, Express, Node, MySQL"
+    },
+    {
+        "id": "2",
         "name": "Social Network API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/socialNetworkAPI.PNG",
         "deployment": "https://youtu.be/613EqxV_-28",
         "github": "https://github.com/Fikcup/socialnetworkAPI",
-        "desc": "JavaScript, Express, Node, Mongoose"
+        "desc": "A REST API that utilizes Mongoose schemas and models to emulate social media backend functionality.",
+        "tech": "JavaScript, Express, Node, Mongoose"
     },
     {
-        "id": "2",
+        "id": "3",
         "name": "Client Portfolio",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/clairePortfolio.PNG",
         "deployment": "https://clairecashmore17.github.io/Portfolio/",
         "github": "https://github.com/clairecashmore17/Portfolio",
-        "desc": "JavaScript, React, SASS, HTML, NPM"
+        "desc": "Portfolio project utilizing React components, props, and JSON data.",
+        "tech": "JavaScript, React, SASS, HTML, NPM"
     },
     {
-        "id": "3",
+        "id": "4",
         "name": "Password Generator",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/passwordGenerator.PNG",
         "deployment": "https://fikcup.github.io/password-generator-js/",
         "github": "https://github.com/Fikcup/password-generator-js",
-        "desc": "HTML, CSS, JavaScript"
+        "desc": "Password Generator with JavaScript logic and HTML and CSS display.",
+        "tech": "HTML, CSS, JavaScript"
     },
     {
-        "id": "4",
+        "id": "5",
         "name": "Grocery List",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/groceryList.PNG",
         "deployment": "https://fikcup.github.io/grocery-list/",
         "github": "https://github.com/Fikcup/grocery-list",
-        "desc": "HTML, CSS, JavaScript"
+        "desc": "Grocery list with significant DOM manipulation using vanilla JavaScript.",
+        "tech": "HTML, CSS, JavaScript"
     },
     {
-        "id": "5",
+        "id": "6",
         "name": "Word Guesser",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/wordGuesser.PNG",
         "deployment": "https://fikcup.github.io/word-guesser/",
         "github": "https://github.com/Fikcup/word-guesser",
-        "desc": "HTML, CSS, JavaScript"
+        "desc": "Word guessing game utilizing extensive JavaScript logic.",
+        "tech": "HTML, CSS, JavaScript"
     }
 ]
