@@ -58,4 +58,22 @@
         flex: 1 0 100%;
         max-width: 100%;   
     }
+
+    .project img {
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
+
+    #one {
+        border: none;
+    }
+
+    #one img {
+        width: 300px;
+
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
 }
