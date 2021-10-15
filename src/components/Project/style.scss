@@ -1,6 +1,23 @@
 @import '../../variables';
 @import '../../mixins';
 
+
+#one {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+#one img {
+    width: 50%;
+    padding-top: 10px;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
 .project {
     flex: 1 0 30%;
     max-width: 30%;
@@ -18,6 +35,10 @@
 .project img {
     width: 300px;
     height: auto;
+
+    &:hover {
+        transform: scale(1.25);
+    }
 }
 
 .projectDesc {

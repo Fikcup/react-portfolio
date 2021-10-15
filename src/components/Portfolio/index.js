@@ -14,6 +14,7 @@ const Portfolio = () => {
             <article className="projectContainer">
                 {projects.map((projects) => (
                     <Project 
+                        id = {projects.id}
                         name = {projects.name}
                         src = {projects.src}
                         deployment = {projects.deployment}
@@ -21,7 +22,6 @@ const Portfolio = () => {
                         desc = {projects.desc}
                         tech = {projects.tech}
                         key = {projects.name}
-                        id = {projects.id}
                     />
                 ))}
             </article>
