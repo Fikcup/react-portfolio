@@ -3,7 +3,7 @@
         "id": "one",
         "name": "Reading List API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/readinglistAPI.PNG",
-        "deployment": "",
+        "deployment": "https://youtu.be/8ujjJ3qomds",
         "github": "https://github.com/Fikcup/readinglistAPI",
         "desc": "A REST API that utilizes a MySQL database to provide backend functionality for a reading list website.",
         "tech": "JavaScript, Express, Node, MySQL"
