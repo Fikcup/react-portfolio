@@ -28,29 +28,38 @@
     },
     {
         "id": "four",
+        "name": "Cover Letter Generator",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/coverletter.PNG",
+        "deployment": "https://youtu.be/mMQ57d9Iqn8",
+        "github": "https://github.com/Fikcup/generate-cover-letter",
+        "desc": "An inquirer NodeJS application that creates a cover letter.",
+        "tech": "JavaScript, NodeJS, Inquirer"
+    },
+    {
+        "id": "five",
         "name": "Password Generator",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/passwordGenerator.PNG",
         "deployment": "https://fikcup.github.io/password-generator-js/",
         "github": "https://github.com/Fikcup/password-generator-js",
         "desc": "Password Generator with JavaScript logic and HTML and CSS display.",
-        "tech": "HTML, CSS, JavaScript"
+        "tech": "JavaScript, HTML, CSS"
     },
     {
-        "id": "five",
+        "id": "six",
         "name": "Grocery List",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/groceryList.PNG",
         "deployment": "https://fikcup.github.io/grocery-list/",
         "github": "https://github.com/Fikcup/grocery-list",
         "desc": "Grocery list with significant DOM manipulation using vanilla JavaScript.",
-        "tech": "HTML, CSS, JavaScript"
+        "tech": "JavaScript, HTML, CSS"
     },
     {
-        "id": "six",
+        "id": "seven",
         "name": "Word Guesser",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/wordGuesser.PNG",
         "deployment": "https://fikcup.github.io/word-guesser/",
         "github": "https://github.com/Fikcup/word-guesser",
         "desc": "Word guessing game utilizing extensive JavaScript logic.",
-        "tech": "HTML, CSS, JavaScript"
+        "tech": "JavaScript, HTML, CSS"
     }
 ]
