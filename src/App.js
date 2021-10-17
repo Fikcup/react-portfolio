@@ -16,8 +16,8 @@ function App() {
         <Nav />
         <Header />
         <Switch>
-          <Route exact path="/" component={About}/>
-          <Route path="/portfolio" component={Portfolio}/>
+          <Route exact path="/" component={Portfolio}/>
+          <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/resume" component={Resume}/>
         </Switch>
