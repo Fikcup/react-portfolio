@@ -21,20 +21,20 @@ const Resume = () => {
                         <li>JavaScript</li>
                         <li>C#</li>
                         <li>Java</li>
-                        <li>Python</li>
                     </ul>
                 </div>
 
                 <div className="languageList">
                     <h3 className="languageSection">Front-End</h3>
                     <ul>
+                        <li>React</li>
+                        <li>Redux</li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>SASS</li>
+                        <li>MaterialUI</li>
                         <li>Tailwind</li>
                         <li>Bootstrap</li>
-                        <li>React</li>
-                        <li>Redux</li>
                     </ul>
                 </div>
 
@@ -61,9 +61,9 @@ const Resume = () => {
                 <div className="languageList">
                     <h3 className="languageSection">Software</h3>
                     <ul>
-                        <li>Unity</li>
                         <li>Insomnia</li>
                         <li>Figma</li>
+                        <li>Unity</li>
                     </ul>
                 </div>
             </article>
