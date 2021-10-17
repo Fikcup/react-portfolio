@@ -8,7 +8,7 @@ const Resume = () => {
             <h2 className="sectionTitle">Resume</h2>
 
             <article className="downloadResume">
-                <a href="../assets/Resume.pdf" download target="_blank" rel="noreferrer" id="download">
+                <a href="https://fikcup.github.io/react-portfolio/assets/Resume.pdf" download target="_blank" rel="noreferrer" id="download">
                     <span id="downloadIcon"><MdFileDownload size={40}/></span>
                     Download Resume as a PDF
                 </a>
