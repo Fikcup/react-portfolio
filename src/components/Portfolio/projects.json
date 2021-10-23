@@ -10,6 +10,15 @@
     },
     {
         "id": "two",
+        "name": "Question and Answer API",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/qaAPI.PNG",
+        "deployment": "",
+        "github": "https://github.com/Fikcup/qa-typescript-api",
+        "desc": "Question and Answer API utilizing RESTful routing, TypeScript, and a MySQL database with Sequelize.",
+        "tech": "TypeScript, Express, Node, MySQL, Sequelize, Docker, Auth0"
+    },
+    {
+        "id": "three",
         "name": "Social Network API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/socialNetworkAPI.PNG",
         "deployment": "https://youtu.be/613EqxV_-28",
@@ -18,7 +27,7 @@
         "tech": "JavaScript, Express, Node, Mongoose"
     },
     {
-        "id": "three",
+        "id": "four",
         "name": "Client Portfolio",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/clairePortfolio.PNG",
         "deployment": "https://clairecashmore17.github.io/Portfolio/",
@@ -27,7 +36,7 @@
         "tech": "JavaScript, React, SASS, HTML, NPM"
     },
     {
-        "id": "four",
+        "id": "five",
         "name": "Cover Letter Generator",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/coverletter.PNG",
         "deployment": "https://youtu.be/mMQ57d9Iqn8",
@@ -36,7 +45,7 @@
         "tech": "JavaScript, NodeJS, Inquirer"
     },
     {
-        "id": "five",
+        "id": "six",
         "name": "Password Generator",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/passwordGenerator.PNG",
         "deployment": "https://fikcup.github.io/password-generator-js/",
@@ -45,7 +54,7 @@
         "tech": "JavaScript, HTML, CSS"
     },
     {
-        "id": "six",
+        "id": "seven",
         "name": "Grocery List",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/groceryList.PNG",
         "deployment": "https://fikcup.github.io/grocery-list/",
@@ -54,7 +63,7 @@
         "tech": "JavaScript, HTML, CSS"
     },
     {
-        "id": "seven",
+        "id": "eight",
         "name": "Word Guesser",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/wordGuesser.PNG",
         "deployment": "https://fikcup.github.io/word-guesser/",
