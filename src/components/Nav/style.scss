@@ -28,6 +28,10 @@ nav li {
     }
 }
 
+.main-nav-active {
+    background-color: $themeByzantium;
+}
+
 @media screen and (max-width: 992px) {
     nav {
         position: relative;

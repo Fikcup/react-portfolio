@@ -1,23 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './style.scss';
 
 const Nav = () => {
     return (
         <nav>
             <ul>
-                <Link to='/'>
+                <NavLink exact to='/' activeClassName='main-nav-active'>
                     <li>Portfolio</li>
-                </Link>
-                <Link to='/about'>
+                </NavLink>
+                <NavLink to='/about' activeClassName='main-nav-active'>
                     <li>About Me</li>
-                </Link>
-                <Link to='/resume'>
+                </NavLink>
+                <NavLink to='/resume' activeClassName='main-nav-active'>
                     <li>Resume</li>
-                </Link>
-                <Link to='/contact'>
+                </NavLink>
+                <NavLink to='/contact' activeClassName='main-nav-active'>
                     <li>Contact me</li>
-                </Link>
+                </NavLink>
             </ul>
         </nav>
     );
