@@ -18,6 +18,8 @@ export const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
+
+        alert('Your email has been sent!');
     };
 
     return (
