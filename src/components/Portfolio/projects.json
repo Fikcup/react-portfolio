@@ -12,7 +12,7 @@
         "id": "two",
         "name": "Question and Answer API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/qaAPI.PNG",
-        "deployment": "",
+        "deployment": "https://youtu.be/Vs1sCBIHsdM",
         "github": "https://github.com/Fikcup/qa-typescript-api",
         "desc": "A REST API that utilizes Sequelize models to create question and answer backend functionality.",
         "tech": "TypeScript, Express, Node, MySQL, Sequelize, Auth0"
