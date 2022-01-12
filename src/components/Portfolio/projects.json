@@ -1,6 +1,24 @@
 [
     {
         "id": "one",
+        "name": "Blog Microservice",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/blog-k8s.PNG",
+        "deployment": "https://cdn.optinmonster.com/wp-content/uploads/2019/03/how-to-create-a-coming-soon-page-in-wordpress.png",
+        "github": "https://github.com/Fikcup/blog-microservice",
+        "desc": "A microservice blog that utilizes JavaScript, Docker, and Kubernetes.",
+        "tech": "JavaScript, Docker, Kubernetes, Ingress-Nginx"
+    },
+    {
+        "id": "two",
+        "name": "Car Report API",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/car-reports-nestjs.PNG",
+        "deployment": "https://cdn.optinmonster.com/wp-content/uploads/2019/03/how-to-create-a-coming-soon-page-in-wordpress.png",
+        "github": "https://github.com/Fikcup/car-reports-nestjs",
+        "desc": "Car report backend utilizing NestJS and a SQLite database developed following TDD practices.",
+        "tech": "TypeScript, NestJS, Jest, SQLite"
+    },
+    {
+        "id": "three",
         "name": "Reading List API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/readinglistAPI.PNG",
         "deployment": "https://youtu.be/8ujjJ3qomds",
@@ -9,7 +27,7 @@
         "tech": "JavaScript, Express, Node, MySQL"
     },
     {
-        "id": "two",
+        "id": "four",
         "name": "Question and Answer API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/qaAPI.PNG",
         "deployment": "https://youtu.be/Vs1sCBIHsdM",
@@ -18,7 +36,7 @@
         "tech": "TypeScript, Express, Node, MySQL, Sequelize, Auth0"
     },
     {
-        "id": "three",
+        "id": "five",
         "name": "Social Network API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/socialNetworkAPI.PNG",
         "deployment": "https://youtu.be/613EqxV_-28",
@@ -27,7 +45,7 @@
         "tech": "JavaScript, Express, Node, Mongoose"
     },
     {
-        "id": "four",
+        "id": "six",
         "name": "Client Portfolio",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/clairePortfolio.PNG",
         "deployment": "https://clairecashmore17.github.io/Portfolio/",
@@ -36,39 +54,12 @@
         "tech": "JavaScript, React, SASS, HTML, NPM"
     },
     {
-        "id": "five",
-        "name": "Cover Letter Generator",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/coverletter.PNG",
-        "deployment": "https://youtu.be/mMQ57d9Iqn8",
-        "github": "https://github.com/Fikcup/generate-cover-letter",
-        "desc": "An inquirer NodeJS application that creates a cover letter.",
-        "tech": "JavaScript, NodeJS, Inquirer"
-    },
-    {
-        "id": "six",
+        "id": "seven",
         "name": "Password Generator",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/passwordGenerator.PNG",
         "deployment": "https://fikcup.github.io/password-generator-js/",
         "github": "https://github.com/Fikcup/password-generator-js",
         "desc": "Password Generator with JavaScript logic and HTML and CSS display.",
-        "tech": "JavaScript, HTML, CSS"
-    },
-    {
-        "id": "seven",
-        "name": "Grocery List",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/groceryList.PNG",
-        "deployment": "https://fikcup.github.io/grocery-list/",
-        "github": "https://github.com/Fikcup/grocery-list",
-        "desc": "Grocery list with significant DOM manipulation using vanilla JavaScript.",
-        "tech": "JavaScript, HTML, CSS"
-    },
-    {
-        "id": "eight",
-        "name": "Word Guesser",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/wordGuesser.PNG",
-        "deployment": "https://fikcup.github.io/word-guesser/",
-        "github": "https://github.com/Fikcup/word-guesser",
-        "desc": "Word guessing game utilizing extensive JavaScript logic.",
         "tech": "JavaScript, HTML, CSS"
     }
 ]
