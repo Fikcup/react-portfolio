@@ -18,6 +18,7 @@ const Resume = () => {
                 <div className="languageList">
                     <h3 className="languageSection">Languages</h3>
                     <ul>
+                        <li>TypeScript</li>
                         <li>JavaScript</li>
                         <li>C#</li>
                         <li>Java</li>
@@ -30,10 +31,8 @@ const Resume = () => {
                         <li>React</li>
                         <li>Redux</li>
                         <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SASS</li>
+                        <li>CSS/SCSS</li>
                         <li>MaterialUI</li>
-                        <li>Tailwind</li>
                         <li>Bootstrap</li>
                     </ul>
                 </div>
@@ -43,7 +42,11 @@ const Resume = () => {
                     <ul>
                         <li>Express.js</li>
                         <li>Node.js</li>
+                        <li>NestJS</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
                         <li>JSON</li>
+                        <li>YAML</li>
                         <li>REST</li>
                         <li>GraphQL</li>
                     </ul>
@@ -61,6 +64,7 @@ const Resume = () => {
                 <div className="languageList">
                     <h3 className="languageSection">Software</h3>
                     <ul>
+                        <li>Postman</li>
                         <li>Insomnia</li>
                         <li>Figma</li>
                         <li>Unity</li>
