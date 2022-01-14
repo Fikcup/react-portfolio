@@ -3,7 +3,7 @@
         "id": "one",
         "name": "Blog Microservice",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/blog-k8s.PNG",
-        "deployment": "https://cdn.optinmonster.com/wp-content/uploads/2019/03/how-to-create-a-coming-soon-page-in-wordpress.png",
+        "deployment": "http://34.135.47.250/",
         "github": "https://github.com/Fikcup/blog-microservice",
         "desc": "A microservice blog that utilizes JavaScript, Docker, and Kubernetes.",
         "tech": "JavaScript, Docker, Kubernetes, Ingress-Nginx"
