@@ -31,7 +31,8 @@ Project Link: [Portfolio](https://fikcup.github.io/react-portfolio/)
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps. <br />
+Note the word 'orange' is blocked by the moderation service and will return a warning stating 'This comment has been rejected.'
 
 ### Installation
 
