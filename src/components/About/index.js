@@ -10,9 +10,7 @@ const About = () => {
 
             <p>Rhys Wright is a software developer focused on improving and gaining additional experience in the tech industry. They primarily develop backend and fullstack web applications using a variety of programming languages, frameworks, and libraries.<br /><br />
             
-            Rhys is a self taught developer who has previously worked as a backend developer for a startup.<br /><br />
-            
-            They are currently seeking backend and fullstack job opportunities.</p>
+            Rhys is a self taught developer who has previously worked as a backend developer for a startup. They are currently seeking backend and fullstack job opportunities.</p>
         </section>
     );
 }
