@@ -27,7 +27,6 @@ export const Contact = () => {
             <h2 className="sectionTitle">Let's Work Together</h2>
             
             <article className="emailForm contactContainer">
-                <h3 className="contactTitle">Send me an email</h3>
                 <form ref={form} onSubmit={sendEmail} name="contactForm">
                     <label>Name</label><br />
                     <input type="text" name="user_name" /><br />
