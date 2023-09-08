@@ -17,7 +17,7 @@ const Footer = () => {
                 className="footerLink"
                 id="portfolioCreator"
                 href="https://github.com/Fikcup">
-                    Fikcup
+                    Rhys Wright
                 </a>
             </p>
 
@@ -25,11 +25,14 @@ const Footer = () => {
                 Reach me at <a className="footerLink"
                 href="mailto:rhys.n.wright@gmail.com?subject=Mail from Portfolio">
                     rhys.n.wright@gmail.com
-                </a> or <Link 
-                className='footerLink' 
-                to='/contact'>
-                    through here
-                </Link>
+                </a> or {" "}
+                <a target="_blank" 
+                rel="noreferrer"
+                className="footerLink"
+                id="portfolioCreator"
+                href="https://www.linkedin.com/in/rhys-wright/">
+                    through LinkedIn
+                </a>
             </p>
         </footer>
     );

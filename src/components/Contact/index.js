@@ -12,13 +12,13 @@ export const Contact = () => {
             <article className="emailForm contactContainer" id="contactInfo">
                 <ul className="contactList">
                     <Icon link="https://github.com/fikcup"
-                    text="github.com/fikcup"
+                    text="Github"
                     ><AiOutlineGithub size={40} /></Icon>
                     <Icon link="https://www.linkedin.com/in/rhys-wright/"
-                    text="linkedin.com/rhys-wright"
+                    text="LinkedIn"
                     ><FaLinkedinIn size={40} /></Icon>
                     <Icon link="mailto:rhys.n.wright@gmail.com?subject=Mail from Portfolio"
-                    text="rhys.n.wright@gmail.com"
+                    text="Email"
                     ><HiOutlineMail size={40} /></Icon>
                 </ul>
             </article>
