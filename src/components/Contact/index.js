@@ -1,5 +1,4 @@
-import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import React from 'react';
 import './style.scss';
 import Icon from '../Icon';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -7,39 +6,10 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { AiOutlineGithub } from 'react-icons/ai';
 
 export const Contact = () => {
-    const form = useRef();
-    
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_3nsmrbc', 'template_o9n61gf', form.current, 'user_DE9q4IuPkQwHnL837Mrv0')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-
-        alert('Your email has been sent!');
-    };
-
     return (
         <section id="contact">
             <h2 className="sectionTitle">Let's Work Together</h2>
-            
-            <article className="emailForm contactContainer">
-                <form ref={form} onSubmit={sendEmail} name="contactForm">
-                    <label>Name</label><br />
-                    <input type="text" name="user_name" /><br />
-                    <label>Email</label><br />
-                    <input type="email" name="user_email" /><br />
-                    <label>Message</label><br />
-                    <textarea name="message" /><br />
-                    <input type="submit" value="Send" id="submit"/>
-                </form>
-            </article>
-
-            <article className="contactContainer" id="contactInfo">
-                <h3 className="contactTitle">Or contact me here</h3>
+            <article className="emailForm contactContainer" id="contactInfo">
                 <ul className="contactList">
                     <Icon link="https://github.com/fikcup"
                     text="github.com/fikcup"

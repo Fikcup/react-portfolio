@@ -20,8 +20,8 @@ const Resume = () => {
                     <ul>
                         <li>TypeScript</li>
                         <li>JavaScript</li>
+                        <li>PHP</li>
                         <li>C#</li>
-                        <li>Java</li>
                     </ul>
                 </div>
 
@@ -29,8 +29,6 @@ const Resume = () => {
                     <h3 className="languageSection">Front-End</h3>
                     <ul>
                         <li>React</li>
-                        <li>Redux</li>
-                        <li>HTML</li>
                         <li>CSS/SCSS</li>
                         <li>MaterialUI</li>
                         <li>Bootstrap</li>
@@ -40,34 +38,30 @@ const Resume = () => {
                 <div className="languageList">
                     <h3 className="languageSection">Back-End</h3>
                     <ul>
-                        <li>Express.js</li>
+                        <li>GraphQL</li>
                         <li>Node.js</li>
-                        <li>NestJS</li>
+                        <li>Express.js</li>
                         <li>Docker</li>
                         <li>Kubernetes</li>
-                        <li>JSON</li>
-                        <li>YAML</li>
-                        <li>REST</li>
-                        <li>GraphQL</li>
                     </ul>
                 </div>
 
                 <div className="languageList">
                     <h3 className="languageSection">Databases</h3>
                     <ul>
-                        <li>MongoDB</li>
                         <li>MySQL</li>
-                        <li>MariaDB</li>
+                        <li>PostgresQL</li>
+                        <li>MongoDB</li>
                     </ul>
                 </div>
 
                 <div className="languageList">
                     <h3 className="languageSection">Software</h3>
                     <ul>
-                        <li>Postman</li>
-                        <li>Insomnia</li>
-                        <li>Figma</li>
+                        <li>AWS</li>
+                        <li>Jira</li>
                         <li>Unity</li>
+                        <li>Figma</li>
                     </ul>
                 </div>
             </article>

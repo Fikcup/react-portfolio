@@ -8,9 +8,7 @@ const About = () => {
 
             <img src="https://fikcup.github.io/react-portfolio/assets/profile-picture.jpg" alt="Rhys Wright" id="profileImg"/>
 
-            <p>Rhys Wright is a software developer focused on improving and gaining additional experience in the tech industry. They primarily develop backend and fullstack web applications using a variety of programming languages, frameworks, and libraries.<br /><br />
-            
-            Rhys is a self taught developer who has previously worked as a backend developer for a startup. They are currently seeking backend and fullstack job opportunities.</p>
+            <p>I'm a mid-level Full Stack Software Engineer with a strong emphasis on backend development. My expertise revolves around TypeScript and AWS, particularly in building cloud-based microservices. I'm passionate about designing and developing scalable, distributed systems that can handle complex tasks with ease. My proficiency in TypeScript allows me to write clean and maintainable code, while my experience with AWS services helps me leverage the power of the cloud for efficient and reliable solutions. I thrive in collaborative environments, and I'm committed to delivering high-quality software that meets business goals and user needs.</p>
         </section>
     );
 }
