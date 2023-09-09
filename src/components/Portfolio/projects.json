@@ -1,21 +1,21 @@
 [
     {
         "id": "one",
-        "name": "Blog Microservice",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/blog-k8s.PNG",
-        "deployment": "http://34.135.47.250/",
-        "github": "https://github.com/Fikcup/blog-microservice",
-        "desc": "A microservice blog that utilizes JavaScript, Docker, and Kubernetes.",
-        "tech": "JavaScript, Docker, Kubernetes, Ingress-Nginx"
+        "name": "Booking Scheduler",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/booking.PNG",
+        "deployment": "https://booking-scheduler-3a70524e744c.herokuapp.com/",
+        "github": "https://github.com/Fikcup/booking-scheduler",
+        "desc": "A fullstack booking application with form field validation utilizing Material UI and Formik.",
+        "tech": "TypeScript, React, Material UI, Formik, Node, Express"
     },
     {
         "id": "two",
-        "name": "Booking Application",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/booking.PNG",
-        "deployment": "https://serene-inlet-73438.herokuapp.com/",
-        "github": "https://github.com/Fikcup/booking-spruce",
-        "desc": "A fullstack booking application with form field validation utilizing Material UI and Formik.",
-        "tech": "TypeScript, React, Material UI, Formik, Node, Express"
+        "name": "Reading List API",
+        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/readinglistAPI.PNG",
+        "deployment": "https://youtu.be/8ujjJ3qomds",
+        "github": "https://github.com/Fikcup/readinglistAPI",
+        "desc": "A REST API that utilizes a MySQL database to provide backend functionality for a reading list website.",
+        "tech": "JavaScript, Express, Node, MySQL"
     },
     {
         "id": "three",
@@ -28,15 +28,6 @@
     },
     {
         "id": "four",
-        "name": "Reading List API",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/readinglistAPI.PNG",
-        "deployment": "https://youtu.be/8ujjJ3qomds",
-        "github": "https://github.com/Fikcup/readinglistAPI",
-        "desc": "A REST API that utilizes a MySQL database to provide backend functionality for a reading list website.",
-        "tech": "JavaScript, Express, Node, MySQL"
-    },
-    {
-        "id": "five",
         "name": "Question and Answer API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/qaAPI.PNG",
         "deployment": "https://youtu.be/Vs1sCBIHsdM",
@@ -45,7 +36,7 @@
         "tech": "TypeScript, Express, Node, MySQL, Sequelize, Auth0"
     },
     {
-        "id": "six",
+        "id": "five",
         "name": "Social Network API",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/socialNetworkAPI.PNG",
         "deployment": "https://youtu.be/613EqxV_-28",
@@ -54,16 +45,7 @@
         "tech": "JavaScript, Express, Node, Mongoose"
     },
     {
-        "id": "seven",
-        "name": "Client Portfolio",
-        "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/clairePortfolio.PNG",
-        "deployment": "https://clairecashmore17.github.io/Portfolio/",
-        "github": "https://github.com/clairecashmore17/Portfolio",
-        "desc": "Portfolio project utilizing React components, props, and JSON data.",
-        "tech": "JavaScript, React, SASS, HTML, NPM"
-    },
-    {
-        "id": "eight",
+        "id": "six",
         "name": "Password Generator",
         "src": "https://fikcup.github.io/react-portfolio/assets/project-imgs/passwordGenerator.PNG",
         "deployment": "https://fikcup.github.io/password-generator-js/",
